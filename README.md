@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Random Animal Generator App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is a simple, fun, and interactive React application that allows users to add random animal images to their screen with a click of a button. Each animal added comes with a heart symbol which increases in size each time you click on the animal. This app is excellent for learning and understanding key concepts of React such as state management, event handling, and passing data to child components via props.
 
-In the project directory, you can run:
+## Features 
 
-### `npm start`
+- *Add Animal Button*: A simple button that, when clicked, adds a random animal to your screen.
+- *Interactive Hearts*: Each animal image added comes with a heart symbol. Clicking on the animal increases the size of its heart, adding a level of interactivity to the app.
+- *Unlimited Animals*: There's no limit to the number of animals you can add given within a set of predefined array of animals. The more, the merrier!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- React.js: For building the user interface
+- CSS: For styling the components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+### Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Demo](./src/svg/demo.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Link
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[animal-show-app]()
 
-### `npm run eject`
+## Useful Insight
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- *State Management*: This project uses React's useState hook for managing the state of the animals and the size of the hearts.
+- *Event Handling*: The app allows users to interact with the animals by clicking on them to increase the size of their hearts. This teaches the fundamental concept of event handling in React.
+- *Props*: This project extensively uses props to pass data from parent components to child components.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Conclusion
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project serves as a fun and interactive way to learn and understand the core concepts of React.js. Happy coding!
